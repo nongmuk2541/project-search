@@ -1,0 +1,90 @@
+name: New_Project_KMUTTNEWS
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase: ^8.0.0
+  firebase_core: ^0.5.0
+  cloud_firestore: ^0.14.0
+  
+  dropdownfield: ^1.0.3
+  
+  image: ^2.1.4
+  google_fonts: ^1.1.0
+  flutter_svg: ^0.19.0
+  flutter_authen: ^0.0.6
+  firebase_storage: ^4.0.0
+  firebase_auth: ^0.18.0+1
+  google_sign_in: ^4.4.4
+  flutter_local_notifications: ^3.0.1+6
+  logger: ^0.9.4
+  #image_picker: ^0.7.4
+
+
+  cupertino_icons: ^0.1.3
+  font_awesome_flutter: ^9.0.0
+  fluttertoast: ^8.0.6
+  auth: ^7.3.1
+  provider: ^5.0.0
+  uuid: ^2.2.2
+  image_picker: ^0.6.7+22
+  permission_handler: ^5.1.0+2
+  image_cropper: ^1.4.0
+  flutter_slidable: ^0.6.0
+  firebase_messaging: ^7.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # cloud_firestore: ^0.14.0
+  
+  # dropdownfield: ^1.0.3
+  # image_picker: ^0.6.7+8
+  # image: ^2.1.4
+  # google_fonts: ^1.1.0
+  # flutter_svg: ^0.19.0
+  # flutter_authen: ^0.0.6
+  # firebase_storage: ^4.0.0
+  # firebase_auth: ^0.18.0+1
+   
+  # flutter_local_notifications: ^3.0.1+6
+  # logger: ^0.9.4
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+     - image/addImag.png
+     - image/addImage.png
+     - image/like.png
+     - image/save.png
+     - image/lock.png
+     - image/settings.png
+     - image/profile.png
+     - image/camera.png
+     - image/cameraa.png
+     
+
+#   assets:
+# # - image/addImage.png
+#     - image/addImage.png
+#     - image/like.png
+#     - image/save.png
+#     - image/settings.png
+
+  fonts:
+    - family: Itim
+      fonts:
+        - asset: fonts/Itim-Regular.ttf
+ 
